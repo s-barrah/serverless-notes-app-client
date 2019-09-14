@@ -6644,3 +6644,15 @@ patch:
         patched: '2019-09-04T11:23:25.757Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2019-09-04T11:23:25.757Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-09-14T05:05:13.592Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-09-14T05:05:13.592Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-09-14T05:05:13.592Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-09-14T05:05:13.592Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-09-14T05:05:13.592Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2019-09-14T05:05:13.592Z'
