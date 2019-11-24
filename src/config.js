@@ -1,17 +1,17 @@
 export default {
     MAX_ATTACHMENT_SIZE: 5000000,
     s3: {
-        REGION: "us-west-2",
-        BUCKET: "crs-notes-app-uploads"
+        REGION: process.env.REACT_APP_REGION,
+        BUCKET: process.env.REACT_APP_S3_BUCKET
     },
     apiGateway: {
-        REGION: "us-west-2",
-        URL: "https://0x54pjvjli.execute-api.us-west-2.amazonaws.com/prod"
+        REGION: process.env.REACT_APP_REGION,
+        URL: process.env.REACT_APP_URL
     },
     cognito: {
-        REGION: "us-west-2",
-        USER_POOL_ID: "us-west-2_PD9tfAXVy",
-        APP_CLIENT_ID: "2knr42b74cbmiiff3o823atbb2",
-        IDENTITY_POOL_ID: "us-west-2:89bb28b8-7097-4b2e-8d0f-21838cb37b8b"
+        REGION: process.env.REACT_APP_REGION,
+        USER_POOL_ID: process.env.REACT_APP_USER_POOL_ID,
+        APP_CLIENT_ID: process.env.REACT_APP_APP_CLIENT_ID,
+        IDENTITY_POOL_ID: process.env.REACT_APP_IDENTITY_POOL_ID
     }
 };
